@@ -30,22 +30,22 @@
 
 *** Requirements
 
-    - [ ] Theme paragraphs with CSS
-    - [ ] Theme header tags with CSS
-    - [ ] Theme images and images captions with CSS
-    - [ ] Change the colour scheme to something aesthetically pleasing
-    - [ ] Apply 1 CSS file to 3 gutenberg documents.
-    - [ ] document in your README what modifications you had to make
+    - [x] Theme paragraphs with CSS
+    - [x] Theme header tags with CSS
+    - [x] Theme images and images captions with CSS
+    - [x] Change the colour scheme to something aesthetically pleasing
+    - [x] Apply 1 CSS file to 3 gutenberg documents.
+    - [x] document in your README what modifications you had to make
       to the project gutenberg HTML files.
-    - [ ] Take 3 screenshots of firefox running all of your pages that
+    - [x] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
-** Part II 
+** Part II
 
    You're going to make your own HTML page and you're going to make 2
    CSS themes for it.
 
-   Emulate the 2nd and 3rd design from this comic: 
+   Emulate the 2nd and 3rd design from this comic:
    http://theoatmeal.com/comics/design_hell
 
    But instead make a 1 webpage about each assignment partner (1 page
@@ -76,7 +76,7 @@
     - [ ] your photo (try to keep it professional)
     - [ ] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
-    
+
 
 ** Restrictions
    - [ ] Use Python 2.7
@@ -104,7 +104,7 @@
      - Line 3: Your collaborator's CCID
 
 ** Marking
-   - 3 for the appropriate skinning the gutenberg stories with new CSS 
+   - 3 for the appropriate skinning the gutenberg stories with new CSS
    - 3 marks for the 2 versions of your page
    - 1 mark for making the CSS for your promotion pages look as close
      to theoatmeal comic as possible (don't steal his images).

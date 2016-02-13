@@ -21,4 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+CHANGES
+=======
 
+PART I
+- Removed the <style ...></style> lines and replaced them with,
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+to include the external CSS files.
