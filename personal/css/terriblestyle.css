@@ -1,0 +1,81 @@
+
+:root{
+  /* Defaults */
+  height: 100%;
+  --bg-colour: black;
+  --bg-image: none;
+
+  /* TERRIBLE OVERRIDES */
+  /**/
+  --terrible-txt-colour: white;
+  --terrible-txt-bg-colour: black;
+  --terrible-txt-bg-image: url('../terrible/coolbears.gif');
+  --terrible-h1-bg-colour: green;
+  --terrible-h3-bg-colour: blue;
+  --terrible-bg-colour: grey;
+  --terrible-bg-image: url("../terrible/bg.gif");
+  /**/
+
+}
+
+
+.name{
+  width: auto;
+  height: auto;
+  background-size: auto;
+}
+/**/
+html{
+  height: 100%;
+}
+body{
+  /* Default */
+  margin: 0;
+  min-height: 100%;
+  background-color: black;
+}
+title{
+  text-align: center;
+  margin: 0 auto;
+}
+.content{
+  margin-bottom:0;
+}
+
+/* ================================ */
+/* Begin turd */
+
+  /* TERRIBLE overrides everything else with crap*/
+  .terrible .container{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin-left:10%;
+
+    background-image: var(--terrible-bg-image);
+    background-repeat: repeat-x repeat-y;
+    color:var(--terrible-txt-colour);
+  }
+  .terrible h1,h2{
+    background-color:var(--terrible-h1-bg-colour);
+    padding: 12px;
+  }
+  .terrible h3,h4,h5{
+    background-color:var(--terrible-h3-bg-colour);
+    padding: 12px;
+  }
+  .terrible p,ul{
+    background-color:var(--terrible-txt-bg-colour);
+    padding: 8px;
+    height: 100%;
+  }
+  .terrible #logo-terrible{
+    display: block;
+    margin: 0 auto;
+  }
+  .terrible .navbar{
+    display: none;
+  }
+
+/* ================================ */

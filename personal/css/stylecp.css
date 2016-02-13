@@ -1,0 +1,60 @@
+
+:root{
+  /* Colour Scheme Variables */
+  /* Grey, Orange, Chartreuse -> Pine */
+  --dark: #262626;
+  --bright: #ff6138;
+  --g0: #00a388;
+  --g1: #79bd8f;
+  --g2: #beeb9f;
+  --g3: #ffff9d;
+  /* For gradients */
+  --gradient0: var(--g3);
+  --gradient1: var(--g2);
+}
+body{
+  /* Default */
+  background-color:var(--dark);
+}
+
+/* Colour Settings */
+.draw{
+  display:block;
+  position:relative;
+}
+.g0{
+  background-color:var(--g0);
+}
+.g1{
+  background-color:var(--g1);
+}
+.g2{
+  background-color:var(--g2);
+}
+.g3{
+  background-color:var(--g3);
+}
+
+/* Shape Settings */
+.outer{
+  position:relative;
+  display:block;
+  height:100%;
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.f0{
+  width: 62%;
+  height: 100%;
+}
+.f1{
+  height: 62%;
+  width: 100%;
+}
+.k0{
+  margin-left:auto; margin-right:0;
+}
+.k1{
+
+}

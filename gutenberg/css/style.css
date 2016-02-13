@@ -1,0 +1,65 @@
+
+/* Fancy Fonts */
+@import url(https://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic|Playfair+Display+SC:700);
+
+body{
+  /* Golden Ratio */
+  background-color: #fefbec;
+  color: #6e6b5e;
+
+  width: 62%;
+  margin-left: 19%;
+}
+
+a{}
+b{}
+blockquote{}
+br{}
+div{}
+h1{
+  text-transform: uppercase;
+  font-family: 'Playfair Display SC', serif;
+}
+h2,h3{}
+hr{}
+
+img{
+  /* All Images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: #e8e4cf;
+}
+
+p{
+  font-family: 'Fanwood Text', serif;
+}
+
+div~p{
+  margin: 0 auto;
+  text-align: justify;
+  width: 30em;
+  line-height: 145%;
+  letter-spacing: 1px;
+}
+
+p>a{
+  display: static;
+  align: center;
+  text-align: center;
+  font-size: 10pt;
+  color: grey;
+  background-color: #EEEEE3;
+}
+
+a[href^="#link"]{
+  position: relative;
+  text-transform: uppercase;
+}
+
+.fig{
+  /* Page Images */
+  position: static;
+  padding: 10px;
+}

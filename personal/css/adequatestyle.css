@@ -1,0 +1,57 @@
+
+:root{
+  /* Defaults */
+  height: 100%;
+  --bg-colour: black;
+  --bg-image: none;
+
+  /* Colour Scheme Variables */
+  /* Grey, Orange, Chartreuse -> Pine */
+  --dark: #262626;
+  --light: #A9A9A9;
+  --bright: #ff6138;
+  --g0: #00a388;
+  --g1: #79bd8f;
+  --g2: #beeb9f;
+  --g3: #ffff9d;
+  /**/
+  --page-bg-colour: var(--dark);
+  --content-bg-colour: var(--dark);
+}
+
+
+.name{
+  width: auto;
+  height: auto;
+  background-size: auto;
+}
+/**/
+html{
+  height: 100%;
+}
+body{
+  /* Accomodating Navbar */
+  padding-top: 80px;
+
+  /* Defaults */
+  background-color: var(--page-bg-colour);
+  color: var(--light);
+}
+title{
+  text-align: center;
+  margin: 0 auto;
+}
+.content{
+  margin-bottom:0;
+  padding: 12px;
+  background-color:
+  border:2px solid var(--dark);
+  border-radius: 8px;
+}
+
+.section{
+  height: 100%;
+}
+.section h1,h2,h3{
+  text-shadow: 0px 4px var(--dark);
+}
